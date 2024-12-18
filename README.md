@@ -1,21 +1,22 @@
-# Hunt-The-Wumpus
-Hunt the Wumpus is a console-based adventure game implemented in C++, showcasing the principles of object-oriented programming (OOP) through modular design and engaging gameplay mechanics. Inspired by the classic game, this project introduces a unique and immersive experience, combining strategic planning with dynamic elements to keep players intrigued.
+# Assignment 4
+This is your assignment repo. It was created when you accepted the assignment on GitHub Classroom.
 
-Key Features:
-Dynamic Cave Generation:
-The game generates a network of 20+ interconnected rooms, each containing random hazards like pits, bats, and the elusive Wumpus. This ensures that every gameplay session is unique, providing players with fresh challenges every time they play.
+## Getting Started
+To get started on the programming portion of this assignment, simply clone this repository to some local space (e.g., your file space on the ENGR servers); complete the starter code, fulfilling all of the requirements outlined in the assignment description document; and then stage, commit, and push your work back to this repo. You can do this following the same steps as you did in past assignments. For your convenience, here are those steps (Important: These steps assume that you've already configured SSH keys to authenticate with GitHub from the ENGR servers; if you haven't done this, refer to lab 1 before continuing):
 
-Custom algorithms were developed to balance difficulty and ensure logical progression, enabling players to strategize their way to victory.
-Object-Oriented Design:
+1. Copy this repo's SSH URL by clicking on the "<> Code" button at the topright of this repo's main page (probably the page that you're reading this text in right now), selecting the "SSH" tab, and clicking on the clipboard icon
+2. Open your terminal and connect to the ENGR servers via SSH
+3. Using commands like `ls`, `pwd`, and `cd`, navigate to the directory in which you want to store all of your assignment work for this class.
+4. Execute `git clone <PASTE SSH URL FOR THIS REPO HERE>`
+5. Execute `ls`. There will now be a new directory called `hooping-catalog-XXX`, where `XXX` is your GitHub username. Enter that directory via `cd`.
+6. Execute `ls`. You should now be able to see this file (`README.md`) along with the rest of the starter code. Use `vim` to edit and complete the starter code, fulfilling the assignment requirements in the assignment description document.
 
-The game leverages OOP principles to maintain a well-structured and scalable codebase.
-Encapsulation was employed to manage over 10 game variables, such as player health, inventory, and room attributes, ensuring clean and efficient data handling.
-Inheritance facilitated the creation of over 5 reusable subclasses, representing hazards (e.g., pits, bats) and items, enabling faster development and easy expansion of game features.
-Interactive Gameplay Mechanics:
-Players must navigate through the caves, avoid hazards, and strategically hunt the Wumpus. The modular game design allows for potential future enhancements, such as additional hazards, improved AI, or multiplayer features.
+## Submitting your work
+As you work on your assignment, you should **frequently** test your code and create new commits reflecting the small changes that you've made since the last commit (remember---VCS helps you rollback your changes to an old commit in case you accidentally break something, but this is only useful if you make new commits frequently).
 
-Technical Highlights:
-Scalability: The modular OOP structure reduced development time by 30% and allows for effortless addition of new features.
-Code Reusability: Through the use of inheritance and polymorphism, the codebase supports easy customization and updates.
-User Experience: Designed with players in mind, the game ensures a balanced and engaging challenge through dynamic hazards and logical game progression.
-This project demonstrates expertise in C++ and OOP concepts, making it an excellent foundation for developers looking to explore game development, algorithm design, and interactive applications. Check out the code to explore how these features come together to create an exciting adventure!
+To submit your work, all you have to do is:
+1. Make sure that all of your work has been reflected in your latest commit (all files should be in a committed state---`git status` should not report anything to be in a modified or staged state)
+2. Push all of your commits back to this GitHub repo via `git push`
+3. Open this repo in your browser, refresh the page, and verify that it contains your latest work
+
+The instructor and TAs have access to this GitHub repo, so as long as your work has been pushed here, you can consider it submitted. Note that we will check the timestamp of your latest commit to determine whether it's a late submission (review the course's late policy in the syllabus).
